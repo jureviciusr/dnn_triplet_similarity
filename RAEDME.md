@@ -1,3 +1,15 @@
+# Structure
+```
+├───data {Folder to put datasets in. Refere to [Get the Data] section}.
+│   ├───dataset_1
+│   ├───dataset_2
+│   └───etc...
+│
+└───scripts {Main folder for python scripts}.
+    ├───cut_with_pillow.py {Script to cut triplets from a large image}.
+    ├───top_model.py {Script to prepare and train top triplets model on VGG16 model's base}.
+    └───fine_tune.py {Script to finetune final model}.
+```
 # Setup
 - install miniconda from https://conda.io/miniconda.html
 - setup new enviroment e.g.:
