@@ -27,7 +27,7 @@ conda list
 ```
 # Get the Data
 - our datasets can be downloaded from https://drive.google.com/drive/folders/1B1_SH8q7xjJ-KzNSGlWiVGdPKkXa0y5s
-# Prepare And Train Top Model on VGG16 Base
+# Prepare And Train the Top Model on VGG16 Base
 - run:
 ```
 python top_model.py 
@@ -35,7 +35,7 @@ python top_model.py
 - *.npy files will be generated with features extracted by passing data through VGG16 bottom layers
 - top_model_weights.h5 file with top model weights will be generated after training new top layers
 - take a note at the last two lines of the script, as these actions can be separated
-# Fine Tune Neural Network
+# Fine Tune the Model
 - run:
 ```
 python fine_tune.py
