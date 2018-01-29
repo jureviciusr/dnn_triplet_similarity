@@ -17,7 +17,7 @@
 conda create --name similarity
 source activate similarity
 ```
-- install tensorflow and other packages as needed e.g.:
+- install keras, tensorflow and other packages as needed e.g.:
 ```
 conda install tensorflow-gpu
 ```
